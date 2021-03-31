@@ -1,0 +1,37 @@
+.alert {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: rgba($color: #000000, $alpha: .3);
+    padding: 10px;
+    text-align: center;
+    animation: apperance  0.3s ease-in forwards;
+    &__close-btn {
+        margin-left: 10px;
+        width: 40px;
+        height: 50px;
+        background-color: #428bca;
+        border: 1px solid #357ebd;
+        cursor: pointer;
+        outline: none;
+        border-radius: 5px;
+        &:hover {
+            color: #fff;
+        }
+        align-self: flex-end;
+    }
+
+}
+
+@keyframes apperance {
+    from {
+        width: 0;
+        height: 0;
+        font-size: 0;
+    }
+    to {
+        width: 550px;
+        height: 250px;
+    }
+}
