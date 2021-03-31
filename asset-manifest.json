@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/fastfingers-clone/static/css/main.2b9da5da.chunk.css",
+    "main.js": "/fastfingers-clone/static/js/main.75dffd2e.chunk.js",
+    "main.js.map": "/fastfingers-clone/static/js/main.75dffd2e.chunk.js.map",
+    "runtime-main.js": "/fastfingers-clone/static/js/runtime-main.70342094.js",
+    "runtime-main.js.map": "/fastfingers-clone/static/js/runtime-main.70342094.js.map",
+    "static/js/2.19fd5f04.chunk.js": "/fastfingers-clone/static/js/2.19fd5f04.chunk.js",
+    "static/js/2.19fd5f04.chunk.js.map": "/fastfingers-clone/static/js/2.19fd5f04.chunk.js.map",
+    "index.html": "/fastfingers-clone/index.html",
+    "static/css/main.2b9da5da.chunk.css.map": "/fastfingers-clone/static/css/main.2b9da5da.chunk.css.map",
+    "static/js/2.19fd5f04.chunk.js.LICENSE.txt": "/fastfingers-clone/static/js/2.19fd5f04.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/fastfingers-clone/static/media/reload.197570f8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70342094.js",
+    "static/js/2.19fd5f04.chunk.js",
+    "static/css/main.2b9da5da.chunk.css",
+    "static/js/main.75dffd2e.chunk.js"
+  ]
+}
