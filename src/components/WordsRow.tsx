@@ -31,15 +31,15 @@ const WordsRow = ({ currentColor, currentIndex, words, top, setCurrentElem, setT
         <div className='words'>
             <div style={{ top: top + 'px' }} className='words__row'>
                 {
-                    words.map((ch: string, i: number) => <span
+                    words.map((word: string, i: number) => <span
                         ref={(el) => el && elementsRefs.current.push(el)}
                         className={classNames(
                             i === currentIndex ? `words__row-${currentColor}` : undefined,
                             elementsRefs.current[i] && elementsRefs.current[i].getAttribute('correct'),
                             elementsRefs.current[i] && elementsRefs.current[i].getAttribute('incorrect')
                         )}
-                        key={i + ch}>
-                        {ch}
+                        key={i + word}>
+                        {word}
                     </span>)
                 }
             </div>

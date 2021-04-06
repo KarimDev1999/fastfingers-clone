@@ -18,7 +18,7 @@ interface IProps {
     setWords(param: string[]): void;
 }
 
-const validateString = (word: string, input: string, currentElem: HTMLElement | null, setCurrentColor: any): void => {
+const validateString = (word: string, input: string, currentElem: HTMLElement | null, setCurrentColor: (param: string) => void): void => {
     setCurrentColor('current');
     for (let i = 0; i < input.length; i++) {
         if (currentElem) {
